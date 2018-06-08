@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rozpoznanie cukrzycy typu I u młodych ludzi</title>
+    <title>Rozpoznanie cukrzycy typu I u mlodych ludzi</title>
 
     <!-- Bootstrap core CSS -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
@@ -47,7 +47,7 @@
     <div class="container theme-showcase" role="main">
 
 <div class="page-header">
-  <h1>Rozpoznanie cukrzycy typu I u młodych ludzi</h1>
+  <h1>Rozpoznanie cukrzycy typu I u mlodych ludzi</h1>
 </div>
 <form role="page1" action="dane.php" method="post">
     <div class="form-group">
