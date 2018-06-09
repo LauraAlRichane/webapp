@@ -1,7 +1,7 @@
-<?php
- echo 'jestem w pliku dane</br>';
-include 'baza.php';
+<meta charset="utf-8">
 
+<?php
+ 
 if(isset($_POST['form'])){
 $plec = $_POST['gender'];  // Storing Selected Value In Variable
 $wiek = $_POST['age'];
@@ -60,5 +60,13 @@ VALUES
 '$cukrzyca_rodzina',
 '$tarczyca',
 '$nadcisnienie')";
+
+$add=$conn->query($sql);
+            	if($add){
+             		echo "<p>Zapisano Twoje odpowiedzi.</p>";   
+            	}
+            	else {
+             		echo "<p>Wystąpił błąd podczas dopisywania.</p>";   
+            	}
 
 ?>
