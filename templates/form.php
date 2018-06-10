@@ -31,14 +31,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">My App</a>
+          <a class="navbar-brand" href="/">Moja Aplikacja</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="./form.php">Form</a></li>
-            <li><a href="/raw">Raw data</a></li>
-            <li><a href="/result">Result</a></li>
+            <li><a href="/">Strona główna</a></li>
+            <li><a href="./form.php">Formularz</a></li>
+            <li><a href="/raw">Dane nie przetworzone</a></li>
+            <li><a href="/result">Wyniki</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
