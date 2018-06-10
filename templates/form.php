@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rozpoznanie cukrzycy typu I u mlodych ludzi</title>
+    <title>Rozpoznanie cukrzycy typu I u młodych ludzi</title>
 
     <!-- Bootstrap core CSS -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
@@ -47,7 +47,7 @@
     <div class="container theme-showcase" role="main">
 
 <div class="page-header">
-  <h1>Rozpoznanie cukrzycy typu I u mlodych ludzi</h1>
+  <h1>Rozpoznanie cukrzycy typu I u młodych ludzi</h1>
 </div>
 <form role="page1" action="baza.php" method="post">
     <div class="form-group">
@@ -118,7 +118,7 @@
     </div>
     <hr>
     <div class="form-group">
-        <p><label for="11">Jak  często odczuwa Pan/Pani suchość w gardle?</label><br><br>
+        <p><label for="11">Jak często odczuwa Pan/Pani suchość w gardle?</label><br><br>
         <label><input type="radio" class="radio-inline" id="11" name="11" value="rzadko" required> Rzadko</label><br>
         <label><input type="radio" class="radio-inline" id="11" name="11" value="czasami" required> Czasami</label><br>
         <label><input type="radio" class="radio-inline" id="11" name="11" value="czesto" required> Często</label></p><br>
