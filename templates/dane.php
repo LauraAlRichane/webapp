@@ -1,6 +1,10 @@
 <meta charset="utf-8">
 
 <?php
+
+//error_reporting (E_ALL);
+//ini_set('display_errors', 1);
+//session_start();
  
 if(isset($_POST['form'])){
 $plec = $_POST['gender'];  // Storing Selected Value In Variable
@@ -62,11 +66,16 @@ VALUES
 '$nadcisnienie')";
 
 $add=$conn->query($sql);
-            	if($add){
-             		echo "<p>Zapisano Twoje odpowiedzi.</p>";   
-            	}
-            	else {
-             		echo "<p>Wystąpił błąd podczas dopisywania.</p>";   
-            	}
-
+if($add){
+	$_SESSION['Etap']="Data_Saved";
+}else{
+	echo "<p>Wystąpił błąd podczas dopisywania.</p>";
+}
+	
+//            	if($add){
+//             		echo "<p>Zapisano Twoje odpowiedzi.</p>";   
+//            	}
+//        	else {
+//             		echo "<p>Wystąpił błąd podczas dopisywania.</p>";   
+//            	}
 ?>
