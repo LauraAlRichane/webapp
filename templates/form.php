@@ -1,9 +1,9 @@
 
-<html lang="en"><head>
+<html lang="pl"><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rozpoznanie cukrzycy typu I u mlodych ludzi</title>
+    <title>Rozpoznanie cukrzycy typu I u młodych ludzi</title>
 
     <!-- Bootstrap core CSS -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
@@ -31,14 +31,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">My App</a>
+          <a class="navbar-brand" href="/">Moja Aplikacja</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="./form.php">Form</a></li>
-            <li><a href="/raw">Raw data</a></li>
-            <li><a href="/result">Result</a></li>
+            <li><a href="/">Strona Główna</a></li>
+            <li><a href="./form.php">Formularz</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -47,7 +45,7 @@
     <div class="container theme-showcase" role="main">
 
 <div class="page-header">
-  <h1>Rozpoznanie cukrzycy typu I u mlodych ludzi</h1>
+  <h1>Rozpoznanie cukrzycy typu I u młodych ludzi</h1>
 </div>
 <form role="page1" action="baza.php" method="post">
     <div class="form-group">
